@@ -1,0 +1,63 @@
+@charset "UTF-8";
+*{
+  background-color: #E8E4DF
+}
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+p{
+font-weight: lighter;
+    font-family:'Courier Prime';
+    line-height: 5px;
+}
+a{
+    font-family:'Courier Prime';
+    color: black;
+}
+.listatop{
+    margin-top: 10px;
+    margin-right: 80px;
+    line-height: 30px;
+    list-style: none;
+}
+.listatop a {
+    text-decoration: none;
+    position: relative;
+}
+.listatop a::after {
+    content:" ";
+    width: 0%;
+    height: 3px;
+    bottom: 0%;
+    left: 0;
+    background-color: rgb(168, 201, 168);
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.listatop a:hover::after{
+    width: 100%;
+   
+}
+main{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+}
+.projetos a{
+    line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+.projetos a::after{
+    background-color:black
+}
+.projetos a:hover{
+    font-size:27px;
+    background-color: black;
+}
+
